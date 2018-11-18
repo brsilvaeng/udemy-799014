@@ -1,1 +1,9 @@
 doc/
+venv/bin
+venv/include
+venv/lib
+*.pyc
+venv/simplemooc/db.sqlite3
+venv/simplemooc/manage.py
+venv/simplemooc/simplemooc/__init__.py
+venv/simplemooc/simplemooc/wsgi.py
