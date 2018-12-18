@@ -8,3 +8,6 @@ def home(request):
     #render(METODO, TEMPLATE, CONTEXTO)
     return render(request, 'home.html', {'usuario':'Bruno Silva'})
     #return HttpResponse('Alo Mundo!')
+
+def contact(request):
+    return render(request, 'contact.html')
